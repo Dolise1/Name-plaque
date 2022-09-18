@@ -1,17 +1,21 @@
-// ARROW FUNCTION
-const buyNow = (e) =>{
-    if (userInput.value ==='') {
-        message.innerHTML='Please type in some letters'
-        message.style.color='red';
+// const button = document.querySelector ('.buy-submit')
 
-    if (userInput.value === input.placeholder){
-        message.innerHTML = 'Please enter your custom letters'
-        message.style.color = 'red'
-     }   
-    }
-    if(userInput.value.length > 15) {
-        message.innerHTML='You have exceeded the number of available letters'
-        message.style.color = 'red'
-    }
-    
-}
+// const buyNow = () => {
+//    if (userInput.value ==='') {
+//     alert ('Please Input letters')  
+//    }
+
+//    else if (userInput.value ==='YOUR NAME') {
+//     alert ('Please Enter Your custom letters')
+//    }
+
+
+// else if (userInput.value.length > 15) {
+//     alert ('You have Exceeded number of letters')
+// }
+
+// else {
+//     alert ('Good job')
+// }
+// }
+// button.addEventListener ('click', buyNow)
