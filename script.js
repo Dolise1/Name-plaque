@@ -24,11 +24,11 @@ const buyNow = () => {
    }
 
    else if (userInput.value ==='YOUR NAME') {
-    alert ('Please Enter Your custom letters')
+    alert ('Enter a new text')
    }
 
 else if (userInput.value.length > 15) {
-    alert ('You have Exceeded number of letters')
+    alert ('We have 15 letters left in stock, and you have exceeded the limit')
 }
 
 else {
